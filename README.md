@@ -9,10 +9,10 @@
 - TDD와 단위테스트
 - 스프링부트 환경에서 테스트코드 작성 방법
 - 자바의 필수 유틸 롬복의 사용법
-  
-메소드 | 의미
+
+메소드 | 의미 
     ---|:----:
-    `@RestController` | 컨트롤러를 json으로 반환하는 컨트롤러로 만들어줌 |
+    `@RestController` | 컨트롤러를 json 으로 반환하는 컨트롤러로 만들어줌 |
     `@GetMapping` | Http Method인 Get의 요청을 받을수있는 API만듬 |
     `@RunWith(SpringRunner.class)` | -테스트를 진행할때 JUnit에 내장된 실행자외에 다른 실행자를 실행시킴 <br>-즉 스프링부트 테스트와 JUnit사이에 연결자 역할을 한다.|
     `@WebMvcTest` | -여러스프링 테스트 어노테이션중 web에 집중할수있는 어노테이션 <br>-선언할경우 @Controller, @ControllerAdvice사용 못함|
